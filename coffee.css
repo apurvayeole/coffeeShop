@@ -1,0 +1,47 @@
+:root {
+  --color-dark: #60241E;
+  --color-primary: #95271D;
+  --color-secondary: #B34A44;
+  --color-accent: #E77B49;
+}
+body{
+    background-color: var(--color-dark);
+    color:white;
+}
+#navbar{
+
+    border:2px solid black;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem;
+}
+#navOpts{
+    display: flex;
+    gap: 2rem;
+}
+#tagLine{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: large;
+    margin : 0.2rem;
+}
+
+#coffeeDiscription{
+    font-weight: lighter;
+    font-size:xx-large;
+    color:yellow;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:
+}
