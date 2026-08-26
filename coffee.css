@@ -43,5 +43,42 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:
+}
+
+#menuListBtn{
+    background-color: #E77B49;
+    color: white;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 100vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family:cursive;
+    font-size: medium;
+    font-weight: 100;
+}
+#menuTitle{
+    border: 2px solid;
+    font-style: italic;
+}
+#menuList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid ;
+    height: 300px;
+    width: 100%;
+}
+.menuListProp{
+    border: 1px solid black;
+}
+#foodCategory{
+    color: yellow;
+    font:caption;
+    margin: 0.5rem;
+    border: 1px solid yellow;
+}
+#foodItem{
+    display: flex;
+    justify-content: space-between;
+
 }
