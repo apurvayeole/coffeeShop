@@ -80,5 +80,31 @@ body{
 #foodItem{
     display: flex;
     justify-content: space-between;
+    margin-top: 0.5rem;;
+}
 
+#item{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#itemName{
+    font: small-caps bolder 15px/1 sans-serif;
+    margin:0.2rem;
+}
+
+#itemDescription{
+    font-style: italic;
+    color:rgb(132, 135, 112);
+    font-weight:lighter;
+    margin:0.2rem;
+}
+#itemPrice{
+    margin: 0.2rem;
+}
+#ourStory{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
