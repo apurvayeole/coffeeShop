@@ -10,10 +10,12 @@ body{
 }
 #navbar{
 
-    border:2px solid black;
+    /* border:2px solid black; */
     display: flex;
     justify-content: space-between;
     position: relative;
+    font-size: 1.2rem;
+    /* margin-bottom: 2rem;/ */
 }
 #navLogo{
     display: flex;
@@ -26,23 +28,25 @@ body{
     gap: 2rem;
 }
 #tagLine{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: monospace;
     font-size: large;
     margin : 0.2rem;
+    margin-top: 2rem;
 }
 
 #coffeeDiscription{
     font-weight: lighter;
-    font-size:xx-large;
+    font-size:5rem;
     color:yellow;
     font-style: italic;
-    display: flex;
-    align-items: center;
+    display: grid;
+    /* align-items: center; */
     justify-content: center;
+    margin:6rem;
 }
 
 #menuListBtn{
@@ -52,30 +56,44 @@ body{
     height: 3rem;
     width: 100vw;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 10rem;
+    font-size: 2rem;
     font-family:cursive;
     font-size: medium;
     font-weight: 100;
 }
 #menuTitle{
-    border: 2px solid;
+    /* border: 2px solid; */
     font-style: italic;
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 #menuList{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 2px solid ;
-    height: 300px;
+    /* border: 2px solid ; */
+    height: 70vh;
     width: 100%;
 }
 .menuListProp{
-    border: 1px solid black;
+    /* border: 1px solid black;  */
+    padding-right: 4rem;
+}
+#line{
+    width:100%;
+    border: 1px solid;
+    margin-bottom: 2rem;
 }
 #foodCategory{
-    color: yellow;
+
+    color: yellow;   
     font:caption;
     margin: 0.5rem;
-    border: 1px solid yellow;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom:2rem;
+    /* border: 1px solid yellow;     */
 }
 #foodItem{
     display: flex;
@@ -87,6 +105,7 @@ body{
     /* display: flex;
     align-items: center;
     justify-content: center; */
+    margin-bottom: 0.5rem;
 }
 
 #itemName{
@@ -107,4 +126,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#shopStory{
+    padding:1.2rem;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-top:8rem;
+}
+
+#image {
+    width: 500vw;
+    height: 70vh;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center;
 }
